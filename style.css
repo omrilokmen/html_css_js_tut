@@ -4,12 +4,13 @@
     /* background-image: url(https://media1.giphy.com/media/Wwh8GrwzMKV1K/giphy.gif?cid=6c09b952r8de2qv6lr15e0siyp9xmxzh9j1qp038sb1t13ol&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);*/
     background-repeat: no-repeat;
     background-size:cover;
+    margin: 10% 10% 10px 20px;
 }
 
 #hd1 { /*Select HTML element by ID*/
     color: blue; /* The text color is blue */
     font-size: 24px; /* The font size is 24px */
-    opacity: 1; /* This element is 50% transparent */
+    opacity: 0.5; /* This element is 50% transparent */
   }
 
 .LearningCSS {
@@ -17,7 +18,12 @@
     font-size: 18px; /* The font size is 18px */
   }
 
-  h3 {
-    color: inherit; /* The text color is inherited from the parent element */   
-    margin: 10%;
+  p{
+    color:brown;
+    margin: inherit;
   }
+
+  b {
+    margin: inherit;
+  }
+
