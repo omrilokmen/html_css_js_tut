@@ -1,6 +1,6 @@
  body {
-    color: rgb(31, 231, 41); /* The text color is black */
-    background-color: rgb(238, 255, 1);
+    color: rgb(0, 0, 0); /* The text color is black */
+    background-color: rgb(68, 128, 184);
     /* background-image: url(https://media1.giphy.com/media/Wwh8GrwzMKV1K/giphy.gif?cid=6c09b952r8de2qv6lr15e0siyp9xmxzh9j1qp038sb1t13ol&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);*/
     background-repeat: no-repeat;
     background-size:cover;
@@ -8,22 +8,66 @@
 }
 
 #hd1 { /*Select HTML element by ID*/
-    color: blue; /* The text color is blue */
+    color: rgb(0, 255, 64); /* The text color is blue */
     font-size: 24px; /* The font size is 24px */
     opacity: 0.5; /* This element is 50% transparent */
   }
 
 .LearningCSS {
-    color: red; /* The text color is red */
+    color: rgb(255, 190, 10); /* The text color is red */
     font-size: 18px; /* The font size is 18px */
   }
 
   p{
-    color:brown;
-    margin: inherit;
+    color:initial;
+    margin: 10%;
   }
-
+/*
   b {
+    color: blue; 
     margin: inherit;
-  }
+  } */
+
+#style1 {
+  border-style: solid;
+  border-width: 10px 5px 10px;
+  border-color: red green blue yellow;
+}
+
+#style2 {
+  border-left: dashed;
+}
+
+#style3 {
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 7px 5px 7px;
+}
+
+#style4 {
+  border: 3px solid;
+  outline: 1px solid yellowgreen;
+  padding: 3px;
+  width: 40%;
+}
+
+b.text1 {
+  color: blueviolet;
+  vertical-align: top;
+}
+#text2 {
+  outline: 1px solid yellowgreen;
+}
+#text3 {
+  outline: 1px solid yellowgreen;
+
+}
+#text4 {
+  outline: 1px solid yellowgreen;
+
+}
+
+#stylingHD{
+  text-align: justify;
+}
 
