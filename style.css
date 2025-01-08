@@ -13,7 +13,7 @@
     opacity: 0.5; /* This element is 50% transparent */
   }
 
-.LearningCSS {
+.LearningCSS { /*Select HTML element by class name*/
     color: rgb(255, 190, 10); /* The text color is red */
     font-size: 18px; /* The font size is 18px */
   }
@@ -51,7 +51,7 @@
   width: 40%;
 }
 
-b.text1 {
+b.text1 { /*Select HTML element by class name AND tag*/
   color: rgb(55, 43, 226);
   vertical-align: top;
 }
@@ -81,11 +81,35 @@ b.text1 {
 table, td, th{
   border: 2px solid;
   width: 50%;
-  border-collapse: collapse;
-}
-
-th, td{
   height: 50px;
-  text-align: left;
+  border-collapse: collapse;
   padding: 10px;
 }
+
+th{
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:hover{
+  background-color: red;
+}
+
+
+h1 b{ /*Select all <b> elements inside <h1>*/
+  color: rgb(216, 0, 119);
+}
+
+h1 + b { /*Select the first <b> element that is immediately after <h1>*/
+  color: rgb(0, 255, 64);
+}
+
+h1 > b { /*Select all <b> elements that are direct children of <h1>*/
+  color: rgb(255, 190, 10);
+}
+
+h1 ~ b { /*Select all <b> elements that are preceded by <h1>*/
+  color: rgb(0, 0, 255);
+}
+
