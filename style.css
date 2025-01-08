@@ -17,12 +17,12 @@
     color: rgb(255, 190, 10); /* The text color is red */
     font-size: 18px; /* The font size is 18px */
   }
-
+/*
   p{
     color:initial;
     margin: 10%;
   }
-/*
+
   b {
     color: blue; 
     margin: inherit;
@@ -52,22 +52,40 @@
 }
 
 b.text1 {
-  color: blueviolet;
+  color: rgb(55, 43, 226);
   vertical-align: top;
 }
+
 #text2 {
   outline: 1px solid yellowgreen;
 }
 #text3 {
-  outline: 1px solid yellowgreen;
-
+  text-align-last: center;
 }
-#text4 {
-  outline: 1px solid yellowgreen;
 
+#text4 {
+  color: white;
+  text-decoration: underline black dashed 10px;
 }
 
 #stylingHD{
   text-align: justify;
 }
 
+#TextTrans1{
+  text-transform: capitalize;
+  text-indent: 20px;
+  font-family: "Lucida Console";
+}
+
+table, td, th{
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th, td{
+  height: 50px;
+  text-align: left;
+  padding: 10px;
+}
